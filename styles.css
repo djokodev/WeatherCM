@@ -40,7 +40,7 @@ button:hover {
 }
 
 .weather-info {
-    margin-top: 20px;
+    margin-top: -30px;
 }
 
 .CountryCity {
@@ -48,12 +48,27 @@ button:hover {
     justify-content: center; 
     align-items: center;
     gap: 10px;
+    margin-bottom: -15px;
 }
 
 #message {
     color: rgb(231, 108, 108);
+    margin-top: 30px;
 }
 
 .info {
     font-style: italic;
+}
+
+#temperature {
+    color: rgb(40, 82, 250);
+}
+
+#description {
+    margin-bottom: 20px;
+    color: rgb(0, 170, 62);
+}
+
+.location {
+    font-weight: normal;
 }
